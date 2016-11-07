@@ -1,16 +1,16 @@
 # Spin
 Spherical nanoindentation stress-strain analysis
 
-# Please read Spherical Nanoindentation Stress-Strain Analysis in MATLAB.pdf for an introduction to the code.#
+## Please read [Spherical Nanoindentation Stress-Strain Analysis in MATLAB.pdf](https://github.com/jsweaver/Spin/blob/master/Spherical%20Nanoindentation%20Stress-Strain%20Analysis%20in%20MATLAB.pdf) for an introduction to the code. ##
 
-** Helpful References: **
+## Helpful References: ##
 
 (1) Kalidindi and Pathak. (2008) Acta Materialia.                     http://dx.doi.org/10.1016/j.actamat.2008.03.036  
 (2) Vachhani et al. (2013) Acta Materialia.                           http://dx.doi.org/10.1016/j.actamat.2013.03.005  
 (3) Pathak and Kalidindi. (2015) Materials Science and Engineering R. http://dx.doi.org/10.1016/j.mser.2015.02.001  
 (4) Weaver et al. (2016) Acta Materialia. (Supplemental Material)     http://dx.doi.org/10.1016/j.actamat.2016.06.053  
 
-** Purpose and Intended Use: **
+## Purpose and Intended Use: ##
 
 The main reason for writing this code was to make the determination of the zero-point correction and indentation stress-strain curves more robust by semi-automating the analysis, developing metrics for determining appropriate answers, and providing some estimate of the uncertainty 
 
@@ -18,7 +18,7 @@ of the appropriate answer including measurements from the indentation stress-str
 
 The intended use is that the user would select a representative answer for each test and include the statistics of multiple appropriate answers for one test when determining the final answer, values, or properties. 
 
-** Functions **
+## Short Discription of Functions ##
 
 RunME.m - load, analyze, plot, save data with this script. Most of the parameters which require adjusting are set in this script.
 
