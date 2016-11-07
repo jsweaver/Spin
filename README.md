@@ -5,10 +5,10 @@ Explanation of Functions and Scripts for analyzing Spherical Nanoindentation Dat
 
 ** Helpful References: **
 
-Kalidindi and Pathak. (2008) Acta Materialia.                     http://dx.doi.org/10.1016/j.actamat.2008.03.036
-Vachhani et al. (2013) Acta Materialia.                           http://dx.doi.org/10.1016/j.actamat.2013.03.005
-Pathak and Kalidindi. (2015) Materials Science and Engineering R. http://dx.doi.org/10.1016/j.mser.2015.02.001
-Weaver et al. (2016) Acta Materialia. (Supplemental Material)     http://dx.doi.org/10.1016/j.actamat.2016.06.053
+(1) Kalidindi and Pathak. (2008) Acta Materialia.                     http://dx.doi.org/10.1016/j.actamat.2008.03.036
+(2) Vachhani et al. (2013) Acta Materialia.                           http://dx.doi.org/10.1016/j.actamat.2013.03.005
+(3) Pathak and Kalidindi. (2015) Materials Science and Engineering R. http://dx.doi.org/10.1016/j.mser.2015.02.001
+(4) Weaver et al. (2016) Acta Materialia. (Supplemental Material)     http://dx.doi.org/10.1016/j.actamat.2016.06.053
 
 
 ** Purpose and Intended Use: **
