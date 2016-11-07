@@ -20,35 +20,35 @@ The intended use is that the user would select a representative answer for each 
 
 ## Short Discription of Functions ##
 
-RunME.m - load, analyze, plot, save data with this script. Most of the parameters which require adjusting are set in this script.
+**RunME.m** - load, analyze, plot, save data with this script. Most of the parameters which require adjusting are set in this script.
 
-LoadTest.m - imports nanoindentation in excel format. Important to set/check the indenter properties, the "End of Test" marker, and correct columns of raw data. CSM corrections are also calculated in here.
+**LoadTest.m** - imports nanoindentation in excel format. Important to set/check the indenter properties, the "End of Test" marker, and correct columns of raw data. CSM corrections are also calculated in here.
 
-smoothstrain.m - applies a moving average to the hardening fit stress-strain data. Not always used.
+**smoothstrain.m** - applies a moving average to the hardening fit stress-strain data. Not always used.
 
-filterResults.m - cuts down the results based on different criteria. A new criterion can be added by coping the 'case' logic used for other variables.
+**filterResults.m** - cuts down the results based on different criteria. A new criterion can be added by coping the 'case' logic used for other variables.
 
-CalcStressStrainWithYield.m - here is where the indentation stress-strain curve is calculated
+**CalcStressStrainWithYield.m** - here is where the indentation stress-strain curve is calculated
 
-FindYield_v2.m - function for determining the yield point and hardening slopes.
+**FindYield_v2.m** - function for determining the yield point and hardening slopes.
 
-FindYieldStart.m - function for determining if a pop-in occurs and some markers needed for determining the yield point
+**FindYieldStart.m** - function for determining if a pop-in occurs and some markers needed for determining the yield point
 
-MyPlotSearch.m - plotting function for the 3-D scatter plot of the results. In order to change the axes of the 3-D plot, modify this code and in SearchExplorer.m
+**MyPlotSearch.m** - plotting function for the 3-D scatter plot of the results. In order to change the axes of the 3-D plot, modify this code and in SearchExplorer.m
 
-NIAnalyzeSearch.m - this function does the zero=point and modulus regression analyses. It gets called many times so try not to add more to it. A speed up in computation might come from better coding with this function and the sub functions it calls.
+**NIAnalyzeSearch.m** - this function does the zero=point and modulus regression analyses. It gets called many times so try not to add more to it. A speed up in computation might come from better coding with this function and the sub functions it calls.
 
-MyHistSearch.m - plotting function for histograms of relevant variables in the results. Viewing this data can be helpful for updating the filter to determine the results.
+**MyHistSearch.m** - plotting function for histograms of relevant variables in the results. Viewing this data can be helpful for updating the filter to determine the results.
 
-SearchExplorer.m - interactive plotting function for the 3D scatter plot for the results. *Important* - the scaling of the indentation stress-strain curve plot is done manually because it always causes problems. Find the variables: mstrain and mstress and adjust accordingly.
+**SearchExplorer.m** - interactive plotting function for the 3D scatter plot for the results. *Important* - the scaling of the indentation stress-strain curve plot is done manually because it always causes problems. Find the variables: mstrain and mstress and adjust accordingly.
 
-subslider.m - creates a subplot of historgrams for many vairables. A NewFilt variable can be created based on the slider values of all the variables in the plot.
+**subslider.m** - creates a subplot of historgrams for many vairables. A NewFilt variable can be created based on the slider values of all the variables in the plot.
 
-MyHistResults.m - spits out the statistics for indentation properties for the saved analyses.
+**MyHistResults.m** - spits out the statistics for indentation properties for the saved analyses.
 
 Shouldn't have to touch these...
 
-Driver.m  
-SingleSearchAllSegments.m  
-mypolyfit.m  
-rsquare.m  
+**Driver.m**  
+**SingleSearchAllSegments.m**  
+**mypolyfit.m**  
+**rsquare.m**  
